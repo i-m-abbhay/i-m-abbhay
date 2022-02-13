@@ -38,10 +38,10 @@
 <a href="https://github.com/i-m-abbhay" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
-<a href="https://www.linkedin.com/in/aman-kanojiya-782263188/" target="_blank">
+<a href="https://www.linkedin.com/in/imabbhay/" target="_blank">
 <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-<a href="mailto:aman.kanojiya4203@gmail.com">
+<a href="mailto:abhay.tiwari.er@gmail.com">
 <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 </p> 
