@@ -4,7 +4,7 @@
 
 
 
-### A Pythoneer🐍 & Web Developer. Love to learn and explore 🚀 
+### A CPPian🐍 & Web Developer. Love to learn and explore 🚀 
  
 - 👨‍💻 First Year Student at <b>IIT (ISM)</b>.
 
@@ -12,16 +12,16 @@
  
 - 👯 I’m looking to collaborate on all types of Projects
 
-- 💬 Would Like to talk about <b>Web development</b>, <b>Python</b>, <b>Robotics</b>
+- 💬 Would Like to talk about <b>Web development</b>, <b>Python</b>, <b>Robotics</b>, <b>Cpp</b>
 
 - 🌱 I’m currently learning <b>Express, Passport, Django</b>, <b>Deno</b> and <b>DevOps</b>
 
 - 🤔 I’m looking for help with <b>Some Guidance</b> to my journey to <b>Open Source</b>
 
-- 📫 How to reach me: *aman.kanojiya4203@gmail.com* .
+- 📫 How to reach me: *abhay.tiwari.er@gmail.com* .
 
 
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=i-m-abbhay&theme=react-dark&hide_border=true&line=66FF00&color=8700FF)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Abhay's github activity graph](https://activity-graph.herokuapp.com/graph?username=i-m-abbhay&theme=react-dark&hide_border=true&line=66FF00&color=8700FF)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
 <div align="center">
