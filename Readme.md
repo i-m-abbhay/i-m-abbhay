@@ -4,14 +4,13 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=i-m-abbhay&label=Profile%20views&color=0e75b6&style=flat" alt="i-m-abbhay" /> </p>
 
 
-I'm a Student  👨‍💻, Currently in last year at Indian Institute of Technology, Dhanbad 👨‍🎓
-- 🔭 I’m currently working on FullStack Tech Stacks, & DSA.
-- 🌱 I’m currently learning Vuejs, Laravel, Nextjs and Typescript.
-- 👯 I’m looking to collaborate on full stack projects in MERN or Laravel.
-- 🤔 I’m looking for help in learning more about different Tech Stacks.
+I'm a Software Engineer👨‍💻, Currently working at <a href="https://standardforce.jp/">Standard Force Corporation</a>, Japan. I have pursued a Bachelor's Degree at Indian Institute of Technology, Dhanbad 👨‍🎓
+- 🔭 FullStack Tech Stacks, & DSA.
+- 🌱 MERN, Nextjs, Vuejs & Laravel.
+- 🤔 Let's learn and Grow together.
 - 💬 Ask me about React, Redux, DSA, DBMS, SSH, OS, CN, OOPs
 - 📫 How to reach me &nbsp;&nbsp;[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shuklaraghav321.com)](mailto:abhay.tiwari.er@gmail.com)
-- ⚡ Fun fact: Jack of all trades , Master of None !
+- ⚡ Fun fact: Jack of all trades , Master of One!
 
 <br><br>
 ## 🏆 GitHub Trophies
