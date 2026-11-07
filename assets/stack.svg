@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 484" width="830" height="484">
+<style>
+.t{font:700 13px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#8b949e;letter-spacing:3px}
+.tj{font:700 13px 'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic UI','Yu Gothic','Meiryo','Noto Sans JP',sans-serif;fill:#6e7681}
+.st{font:600 12px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#e6edf3}
+.b{font:800 12px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#0f141a}
+.lg{font:600 12px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#c9d1d9}
+.lgj{font:500 11px 'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic UI','Yu Gothic','Meiryo','Noto Sans JP',sans-serif;fill:#8b949e}
+.water{font:italic 500 11px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#2d4a5e;letter-spacing:4px}
+</style>
+<rect x="4" y="4" width="822" height="476" rx="14" fill="#0f141a" stroke="#30363d" stroke-width="2"/>
+<path d="M5,70 C70,60 140,92 190,78 C200,110 170,150 120,160 C80,168 40,150 5,158 Z" fill="#12202b"/>
+<text x="95" y="120" text-anchor="middle" class="water">OMURA BAY</text>
+<text x="95" y="138" text-anchor="middle" class="water">大村湾</text>
+<text x="34" y="42" class="t">NETWORK MAP</text>
+<text x="796" y="42" text-anchor="end" class="tj">路線図</text>
+<rect x="95" y="210" width="10" height="90" fill="#0f141a" stroke="#8b949e" stroke-width="2"/>
+<rect x="335" y="210" width="10" height="90" fill="#0f141a" stroke="#8b949e" stroke-width="2"/>
+<rect x="465" y="210" width="10" height="90" fill="#0f141a" stroke="#8b949e" stroke-width="2"/>
+<rect x="595" y="210" width="10" height="90" fill="#0f141a" stroke="#8b949e" stroke-width="2"/>
+<path d="M60,210 H770" fill="none" stroke="#f5a524" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M220,210 V152 Q220,130 242,130 H700" fill="none" stroke="#2bb3a3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70,300 H630" fill="none" stroke="#ff7b72" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70,390 H400" fill="none" stroke="#58a6ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M440,390 H790" fill="none" stroke="#d16ba5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="210" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="100" y="192" text-anchor="middle" class="st">JavaScript</text>
+<circle cx="220" cy="210" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="208" y="194" text-anchor="end" class="st">TypeScript</text>
+<circle cx="340" cy="210" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="340" y="192" text-anchor="middle" class="st">PHP</text>
+<circle cx="470" cy="210" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="470" y="192" text-anchor="middle" class="st">Python</text>
+<circle cx="600" cy="210" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="600" y="192" text-anchor="middle" class="st">Go</text>
+<circle cx="720" cy="210" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="720" y="192" text-anchor="middle" class="st">C++</text>
+<circle cx="300" cy="130" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="300" y="114" text-anchor="middle" class="st">React</text>
+<circle cx="390" cy="130" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="390" y="114" text-anchor="middle" class="st">Next.js</text>
+<circle cx="480" cy="130" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="480" y="114" text-anchor="middle" class="st">Vue</text>
+<circle cx="570" cy="130" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="570" y="114" text-anchor="middle" class="st">Svelte</text>
+<circle cx="660" cy="130" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="660" y="114" text-anchor="middle" class="st">Tailwind</text>
+<circle cx="100" cy="300" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="100" y="328" text-anchor="middle" class="st">Node.js</text>
+<circle cx="175" cy="300" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="175" y="328" text-anchor="middle" class="st">Express</text>
+<circle cx="340" cy="300" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="340" y="328" text-anchor="middle" class="st">Laravel</text>
+<circle cx="470" cy="300" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="470" y="328" text-anchor="middle" class="st">Django</text>
+<circle cx="535" cy="300" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="535" y="328" text-anchor="middle" class="st">FastAPI</text>
+<circle cx="600" cy="300" r="9" fill="#fff" stroke="#0f141a" stroke-width="4"/>
+<text x="600" y="328" text-anchor="middle" class="st">Gin</text>
+<circle cx="100" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="100" y="416" text-anchor="middle" class="st">MySQL</text>
+<circle cx="190" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="190" y="416" text-anchor="middle" class="st">PostgreSQL</text>
+<circle cx="280" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="280" y="416" text-anchor="middle" class="st">MongoDB</text>
+<circle cx="370" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="370" y="416" text-anchor="middle" class="st">SQLite</text>
+<circle cx="470" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="470" y="416" text-anchor="middle" class="st">Docker</text>
+<circle cx="530" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="530" y="374" text-anchor="middle" class="st">RabbitMQ</text>
+<circle cx="590" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="590" y="416" text-anchor="middle" class="st">Grafana</text>
+<circle cx="650" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="650" y="374" text-anchor="middle" class="st">Prometheus</text>
+<circle cx="710" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="710" y="416" text-anchor="middle" class="st">Loki</text>
+<circle cx="770" cy="390" r="6" fill="#fff" stroke="#0f141a" stroke-width="3"/>
+<text x="770" y="374" text-anchor="middle" class="st">Git</text>
+<rect x="40" y="446" width="26" height="18" rx="4" fill="#f5a524"/>
+<text x="53" y="459" text-anchor="middle" class="b">L</text>
+<text x="74" y="455" class="lg">Languages</text>
+<text x="74" y="469" class="lgj">言語線</text>
+<rect x="195" y="446" width="26" height="18" rx="4" fill="#2bb3a3"/>
+<text x="208" y="459" text-anchor="middle" class="b">F</text>
+<text x="229" y="455" class="lg">Frontend</text>
+<text x="229" y="469" class="lgj">フロント線</text>
+<rect x="350" y="446" width="26" height="18" rx="4" fill="#ff7b72"/>
+<text x="363" y="459" text-anchor="middle" class="b">B</text>
+<text x="384" y="455" class="lg">Backend</text>
+<text x="384" y="469" class="lgj">バックエンド線</text>
+<rect x="505" y="446" width="26" height="18" rx="4" fill="#58a6ff"/>
+<text x="518" y="459" text-anchor="middle" class="b">D</text>
+<text x="539" y="455" class="lg">Data</text>
+<text x="539" y="469" class="lgj">データ線</text>
+<rect x="660" y="446" width="26" height="18" rx="4" fill="#d16ba5"/>
+<text x="673" y="459" text-anchor="middle" class="b">O</text>
+<text x="694" y="455" class="lg">Ops</text>
+<text x="694" y="469" class="lgj">運用線</text>
+</svg>

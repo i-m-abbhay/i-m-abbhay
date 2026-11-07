@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 300" width="830" height="300">
+<style>
+.t{font:700 13px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#8b949e;letter-spacing:3px}
+.tj{font:700 13px 'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic UI','Yu Gothic','Meiryo','Noto Sans JP',sans-serif;fill:#6e7681}
+.y{font:700 12px ui-monospace,SFMono-Regular,Consolas,Menlo,'Liberation Mono',monospace;fill:#f5a524;letter-spacing:1px}
+.n{font:700 13px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#e6edf3}
+.d{font:400 12px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#8b949e}
+.here{font:700 12px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#f5a524}
+.now{font:500 12px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#c9d1d9}
+.train{animation:ride 8s cubic-bezier(.45,0,.25,1) infinite}
+@keyframes ride{0%{transform:translateX(0)}75%,100%{transform:translateX(536px)}}
+.pulse{transform-origin:616px 132px;animation:pulse 2s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.6);opacity:0}}
+</style>
+<rect x="4" y="4" width="822" height="292" rx="14" fill="#0f141a" stroke="#30363d" stroke-width="2"/>
+<text x="34" y="42" class="t">THE ROUTE SO FAR</text>
+<text x="796" y="42" text-anchor="end" class="tj">これまでの路線</text>
+<line x1="80" y1="132" x2="616" y2="132" stroke="#0e7c66" stroke-width="8" stroke-linecap="round"/>
+<line x1="616" y1="132" x2="750" y2="132" stroke="#484f58" stroke-width="6" stroke-dasharray="4 8" stroke-linecap="round"/>
+<circle class="pulse" cx="616" cy="132" r="10" fill="none" stroke="#f5a524" stroke-width="3"/>
+<circle cx="80" cy="132" r="10" fill="#fff" stroke="#1b1f24" stroke-width="4"/>
+<text x="80" y="88" text-anchor="middle" class="y">2020</text>
+<text x="80" y="108" text-anchor="middle" class="n">IIT (ISM) Dhanbad</text>
+<text x="80" y="166" text-anchor="middle" class="d">B.Tech begins</text>
+<circle cx="214" cy="132" r="10" fill="#fff" stroke="#1b1f24" stroke-width="4"/>
+<text x="214" y="88" text-anchor="middle" class="y">2021</text>
+<text x="214" y="108" text-anchor="middle" class="n">Graphic designer</text>
+<text x="214" y="166" text-anchor="middle" class="d">film posters,</text>
+<text x="214" y="183" text-anchor="middle" class="d">freelance brands</text>
+<circle cx="348" cy="132" r="10" fill="#fff" stroke="#1b1f24" stroke-width="4"/>
+<text x="348" y="88" text-anchor="middle" class="y">2022</text>
+<text x="348" y="108" text-anchor="middle" class="n">NVCTI, Dhanbad</text>
+<text x="348" y="166" text-anchor="middle" class="d">Innovation Cell</text>
+<text x="348" y="183" text-anchor="middle" class="d">coordinator</text>
+<circle cx="482" cy="132" r="10" fill="#fff" stroke="#1b1f24" stroke-width="4"/>
+<text x="482" y="88" text-anchor="middle" class="y">2023</text>
+<text x="482" y="108" text-anchor="middle" class="n">LTU Corporation</text>
+<text x="482" y="166" text-anchor="middle" class="d">full-stack intern,</text>
+<text x="482" y="183" text-anchor="middle" class="d">remote for Japan</text>
+<circle cx="616" cy="132" r="10" fill="#fff" stroke="#1b1f24" stroke-width="4"/>
+<text x="616" y="88" text-anchor="middle" class="y">2024</text>
+<text x="616" y="108" text-anchor="middle" class="n">Standard Force</text>
+<text x="616" y="166" text-anchor="middle" class="d">SDE in Omura,</text>
+<text x="616" y="183" text-anchor="middle" class="d">Nagasaki</text>
+<text x="616" y="200" text-anchor="middle" class="here">you are here</text>
+<circle cx="750" cy="132" r="10" fill="#0f141a" stroke="#484f58" stroke-width="4"/>
+<text x="750" y="88" text-anchor="middle" class="y">NEXT</text>
+<text x="750" y="108" text-anchor="middle" class="n">next-idea</text>
+<text x="750" y="166" text-anchor="middle" class="d">boarding soon</text>
+<g class="train">
+<rect x="58" y="122" width="44" height="20" rx="7" fill="#f5a524" stroke="#0f141a" stroke-width="2"/>
+<rect x="66" y="127" width="8" height="7" rx="1.5" fill="#0f141a"/>
+<rect x="77" y="127" width="8" height="7" rx="1.5" fill="#0f141a"/>
+<rect x="88" y="127" width="8" height="7" rx="1.5" fill="#0f141a"/>
+</g>
+<line x1="34" y1="230" x2="796" y2="230" stroke="#30363d"/>
+<text x="415" y="256" text-anchor="middle" class="now">NOW AT STANDARD FORCE:  RabbitMQ notification system across chat platforms  ·  seismic assessment platform, 10× faster</text>
+<text x="415" y="276" text-anchor="middle" class="now">KPI dashboard on the ERP  ·  PyQt + SQLite app over 2M+ records  ·  Grafana, Prometheus and Loki across 8 servers</text>
+</svg>

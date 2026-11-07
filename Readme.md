@@ -1,111 +1,51 @@
- 
-<h1 align="center">Hi 👋, I'm Abhay Tiwari</h1>
-<h3 align="center">A self taught Full Stack Dev</h3>
-I'm a Full Stack Software Engineer👨‍💻, Currently working at <a href="https://standardforce.jp/">Standard Force Corporation</a>, Japan. I have pursued a Bachelor's Degree at Indian Institute of Technology, Dhanbad 👨‍🎓 <p align="center"> <img src="https://komarev.com/ghpvc/?username=i-m-abbhay&label=Profile%20views&color=0e75b6&style=flat" alt="i-m-abbhay" /> </p>
-
-<p align="Center" ><img src="https://media1.tenor.com/m/qMH5o_XizbcAAAAd/but-here%27s-the-coder.gif" alt="Pixelart-GIF-Pixelart-Discover-Share-GIFs" border="0"></p> 
-
-
-
-
-- FullStack Tech Stacks, & Learning DSA
-- Often found myself talking about React, Redux, DSA, DBMS, SSH, OS, CN, OOPs
-- Email Me &nbsp;&nbsp;[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:shuklaraghav321.com)](mailto:abhay.tiwari.er@gmail.com)
-- Fun fact: Master of all trades in being!
-
-<br><br>
-## 🏆 GitHub Trophies
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=i-m-abbhay" alt="i-m-abbhay" /></a> </p>
-<h3 align="left">Find me:</h3>
-<p align="left">
-<a href="https://twitter.com/i_m_abbhay" target="blank">Twitter</a>
-<a href="https://linkedin.com/in/imabbhay" target="blank">LinkedIN</a>
-<!-- <a href="https://instagram.com/i_m_abbhay" target="blank"><img align="center" src="https://svgshare.com/i/vQw.svg" alt="i_m_abbhay" height="30" width="40" /></a> -->
-<a href="https://www.hackerrank.com/i-m-abbhay" target="blank">Hackerrank</a>
-<a href="https://codeforces.com/profile/i_m_abbhay" target="blank">CodeForces</a>
-<!-- <a href="https://www.leetcode.com/i-m-abbhay" target="blank"><img align="center" src="https://svgshare.com/i/vPT.svg" alt="i-m-abbhay" height="30" width="40" /></a> -->
-<!-- <a href="https://auth.geeksforgeeks.org/user/20je0018" target="blank"></a> -->
+<p align="center">
+  <a href="https://i-m-abbhay.github.io/i-m-abbhay/chime.html"><img src="assets/header.svg" width="100%" alt="Station sign: Abhay Tiwari (ティワリアブハイ). Previous station: Dhanbad, IIT (ISM) 2024. Next station: next-idea. Software Development Engineer at Standard Force, Omura, Nagasaki, Japan. Click to hear the departure chime."></a>
+  <br>
+  <sub>Click the sign to hear the departure chime · 駅名標をクリックすると発車メロディが流れます</sub>
 </p>
 
-<h3 align="left">Programming Languages:</h3>
-<!-- <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRt.svg" alt="cplusplus" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vSE.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vS3.svg" alt="php" width="40" height="40"/> </a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRh.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vQk.svg" alt="typescript" width="40" height="40"/> </a>
- -->
- Javascript, C++, GoLang, Python, PHP
+<p align="center">
+  <a href="https://linkedin.com/in/imabbhay"><img src="https://img.shields.io/badge/LinkedIn-0e7c66?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://twitter.com/i_m_abbhay"><img src="https://img.shields.io/badge/X-0e7c66?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://medium.com/@abhay.tiwari.er"><img src="https://img.shields.io/badge/Medium-0e7c66?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+  <a href="mailto:abhay.tiwari.er@gmail.com"><img src="https://img.shields.io/badge/Email-0e7c66?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://codeforces.com/profile/i_m_abbhay"><img src="https://img.shields.io/badge/Codeforces-0e7c66?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"></a>
+  <a href="https://www.hackerrank.com/i-m-abbhay"><img src="https://img.shields.io/badge/HackerRank-0e7c66?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"></a>
+</p>
 
-<h3 align="left">Frontend Development:</h3>
-<!-- <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vQA.svg" alt="react" width="40" height="40"/> </a>
-<a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRs.svg" alt="redux" width="40" height="40"/> </a>
-<a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vR1.svg" alt="vuejs" width="40" height="40"/> </a>
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vR0.svg" alt="bootstrap" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vQC.svg" alt="css3" width="40" height="40"/> </a>
-<a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> 
-<a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRg.svg" alt="webpack" width="40" height="40"/> </a> 
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vPy.svg" alt="html5" width="40" height="40"/> </a> 
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> 
-<a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://i.ibb.co/ZhhXHLS/sass.png" alt="sass" width="40" height="40"/> </a>  -->
-Reactjs, Nextjs, Vuejs, Laravel, pyQt
+<p align="center">
+  <img src="assets/journey.svg" width="100%" alt="The route so far: 2020 IIT (ISM) Dhanbad, 2021 graphic designer, 2022 NVCTI Innovation Cell coordinator, 2023 LTU Corporation full-stack intern, 2024 Software Development Engineer at Standard Force in Omura, Nagasaki. Next stop: next-idea.">
+</p>
 
-<h3 align="left">Backend Development:</h3>
-<!-- <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRi.svg" alt="nodejs" width="40" height="40"/> </a> 
-<a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vQB.svg" alt="express" width="40" height="40"/> </a> 
-<a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a>  -->
-Nodejs, Nextjs, Laravel, Gin, Flask, Django 
-<h3 align="left">Database:</h3>
-<!-- <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRN.svg" alt="mongodb" width="40" height="40"/> </a> 
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vS4.svg" alt="mysql" width="40" height="40"/> </a> 
-<a href="https://en.wikipedia.org/wiki/Microsoft_SQL_Server" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vSS.svg" alt="msmysql-server" width="40" height="40"/> </a> 
-<a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vR2.svg" alt="mariaDB" width="40" height="40"/> </a> 
- -->
- MySQL, MongoDB, PostgreSQL, Loki
-<h3 align="left">Ai ML:</h3>
-<!-- <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRA.svg" alt="pandas" width="40" height="40"/> </a> 
-<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> 
-<a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" alt="seaborn" width="40" height="40"/> </a>  -->
-Pandas, Numpy, Seaborn, PyTorch, TensorFlow
-<h3 align="left">Data Visualization:</h3>
-<!-- <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a>
-<a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" alt="seaborn" width="40" height="40"/> </a> -->
-Matplotlib, chatjs, grafana
+<p align="center">
+  <a href="https://github.com/i-m-abbhay?tab=repositories"><img src="assets/departures.svg" width="100%" alt="Departures board of projects: pounce, direct4b-mcp, nihongo, karimen-honmen, Eat-That-Frog."></a>
+  <br>
+  <sub>
+    <a href="https://github.com/i-m-abbhay/pounce">pounce</a> ·
+    <a href="https://github.com/i-m-abbhay/direct4b-mcp">direct4b-mcp</a> ·
+    <a href="https://github.com/i-m-abbhay/nihongo">nihongo</a> ·
+    <a href="https://github.com/i-m-abbhay/karimen-honmen">karimen-honmen</a> ·
+    <a href="https://github.com/i-m-abbhay/Eat-That-Frog-Task-Tracker">Eat-That-Frog</a>
+  </sub>
+</p>
 
-<h3 align="left">Devops:</h3>
-<!-- <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRY.svg" alt="docker" width="40" height="40"/> </a> 
-<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>  -->
-Grafana, DataDog, Prometheus, Terraform, Postman, git 
-<!-- <h3 align="left">Backend as a Service(BaaS):</h3>
-<a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> 
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>  -->
+<p align="center">
+  <a href="https://medium.com/@abhay.tiwari.er"><img src="assets/articles.svg" width="100%" alt="Arrivals board of my latest Medium articles."></a>
+</p>
 
-<!-- <h3 align="left">Fullstack Framework:</h3>
-<a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> 
-<a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vPb.svg" alt="laravel" width="40" height="40"/> </a> -->
+- [We Were About to Pay ¥50,000 More a Month for a Bigger Disk.](https://medium.com/@abhay.tiwari.er/we-were-about-to-pay-50-000-more-a-month-for-a-bigger-disk-03af49cb5698)
+- [Object Storage for VPS Developers](https://medium.com/@abhay.tiwari.er/object-storage-for-vps-developers-70de08e2dd41)
+- [How to make your own Protocol (like HTTP) in 10 minutes](https://medium.com/@abhay.tiwari.er/how-to-make-your-own-protocol-like-http-in-10-minutes-3e61de91ad2f)
+- [All About HTTP Headers](https://medium.com/@abhay.tiwari.er/all-about-http-headers-16285e484951)
+- [AI is making me faster for sure but I feel empty and sad afterwards.](https://medium.com/@abhay.tiwari.er/ai-is-making-me-faster-for-sure-but-i-feel-empty-and-sad-afterwards-94ee2f75ff27)
+- [More on Medium](https://medium.com/@abhay.tiwari.er): Go concurrency (goroutines, channels, mutexes), cleaning up a hacked site, tuning MySQL on a 2018 Laravel ERP.
 
-<h3 align="left">SideSkills:</h3>
-<!-- <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
-<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> 
-<a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vRX.svg" alt="photoshop" width="40" height="40"/> </a>  
-<a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
-<a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a>  -->
-Figma, Photoshop(Advanced manipulation:), illustrator
-<!-- <h3 align="left">Other:</h3>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://svgshare.com/i/vPU.svg" alt="linux" width="40" height="40"/> </a> 
-<a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> 
- -->
+<p align="center">
+  <img src="assets/stack.svg" width="100%" alt="Tech stack transit map. Languages line: JavaScript, TypeScript, PHP, Python, Go, C++. Frontend line: React, Next.js, Vue, Svelte, Tailwind. Backend line: Node.js, Express, Laravel, Django, FastAPI, Gin. Data line: MySQL, PostgreSQL, MongoDB, SQLite. Ops line: Docker, RabbitMQ, Grafana, Prometheus, Loki, Git.">
+</p>
 
-<br><br>
-<!--
-<div style="display: grid, align-items: auto">
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=i-m-abbhay&show_icons=true&locale=en&layout=compact" alt="i-m-abbhay" width="350px"/>
-&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=i-m-abbhay&show_icons=true&locale=en" alt="i-m-abbhay" /></p>
-
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=i-m-abbhay&" alt="i-m-abbhay" /></p>
-<h3 align="left">Support Me :)</h3>
--->
-<p>Ask me to learn new stuff. Ask for collaborations.</p>
-<!-- <p><a href="https://www.buymeacoffee.com/imabbhay"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="25" width="100" alt="imabbhay" /></a></p> -->
+<p align="center">
+  <sub>Thank you for riding. またのご乗車をお待ちしております。</sub>
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=i-m-abbhay&label=Passengers&color=0e7c66&style=flat" alt="Profile views">
+</p>

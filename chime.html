@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Departure Chime</title>
+<meta name="description" content="Platform main: an original departure melody for Abhay Tiwari's GitHub profile.">
+<style>
+  :root { --bg:#0d1117; --panel:#050505; --amber:#ffb000; --dim:#a8740a; --teal:#0e7c66; --green:#3ddc84; --text:#e6edf3; --muted:#8b949e; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:var(--bg); color:var(--text);
+         font-family:'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo',sans-serif;
+         display:flex; flex-direction:column; align-items:center; justify-content:center; padding:32px 16px; gap:28px; }
+  .sign { width:100%; max-width:830px; }
+  .sign img { width:100%; display:block; }
+  .board { width:100%; max-width:830px; background:var(--panel); border:2px solid #30363d; border-radius:12px;
+           padding:22px 26px; font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,'Yu Gothic',monospace; }
+  .row { display:flex; justify-content:space-between; gap:16px; color:var(--amber); font-weight:700; font-size:18px; min-height:28px; }
+  .row .dim { color:var(--dim); font-size:13px; letter-spacing:2px; }
+  #msg-ja { color:var(--amber); font-size:16px; margin-top:6px; min-height:24px; }
+  .notes { display:flex; gap:6px; margin-top:18px; flex-wrap:wrap; }
+  .notes span { width:22px; height:10px; border-radius:3px; background:#1d1d1d; transition:background .08s; }
+  .notes span.on { background:var(--amber); box-shadow:0 0 10px var(--amber); }
+  button { font:inherit; font-size:17px; font-weight:700; color:#fff; background:var(--teal); border:0; border-radius:999px;
+           padding:16px 34px; cursor:pointer; box-shadow:0 0 0 4px #0e7c6633; }
+  button:hover { filter:brightness(1.12); }
+  button:focus-visible { outline:3px solid var(--amber); outline-offset:3px; }
+  button[disabled] { opacity:.55; cursor:default; }
+  .small { font-size:13px; font-weight:500; display:block; opacity:.85; margin-top:2px; }
+  a { color:#58a6ff; }
+  footer { color:var(--muted); font-size:13px; text-align:center; }
+</style>
+</head>
+<body>
+  <div class="sign"><img src="assets/header.svg" alt="Station sign: ティワリアブハイ, Abhay Tiwari"></div>
+
+  <div class="board" aria-live="polite">
+    <div class="row"><span id="msg-en">Platform main · Departure chime</span><span class="dim">のりば main</span></div>
+    <div id="msg-ja">発車メロディ</div>
+    <div class="notes" id="notes" aria-hidden="true"></div>
+  </div>
+
+  <button id="play">Play departure chime<span class="small">発車メロディを鳴らす</span></button>
+
+  <footer>An original melody, synthesized live in your browser.<br>
+    <a href="https://github.com/i-m-abbhay">Back to the platform · ホームへ戻る</a></footer>
+
+<script>
+// An original 16-note melody (not taken from any real station). Values are [MIDI note, beats].
+const MELODY = [
+  [74,1],[78,1],[81,1],[86,2],[85,1],[81,1],[83,2],
+  [81,1],[78,1],[79,1],[83,2],[81,1],[76,1],[78,1],[74,4]
+];
+const BEAT = 0.2; // seconds
+const notesEl = document.getElementById('notes');
+const btn = document.getElementById('play');
+const en = document.getElementById('msg-en');
+const ja = document.getElementById('msg-ja');
+MELODY.forEach(() => notesEl.appendChild(document.createElement('span')));
+
+const hz = m => 440 * Math.pow(2, (m - 69) / 12);
+
+function bell(ctx, freq, t, dur) {
+  // Bell-like tone: fundamental plus two quieter partials, fast attack, exponential decay.
+  [[1, 0.5], [2, 0.18], [3.01, 0.07]].forEach(([mult, vol]) => {
+    const o = ctx.createOscillator(), g = ctx.createGain();
+    o.type = 'sine';
+    o.frequency.value = freq * mult;
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(vol * 0.35, t + 0.008);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur + 0.9);
+    o.connect(g).connect(ctx.destination);
+    o.start(t);
+    o.stop(t + dur + 1);
+  });
+}
+
+function say(e, j) { en.textContent = e; ja.textContent = j; }
+
+btn.addEventListener('click', () => {
+  const AC = window.AudioContext || window.webkitAudioContext;
+  if (!AC) { say('Audio is not supported in this browser.', 'このブラウザは音声に対応していません。'); return; }
+  const ctx = new AC();
+  btn.disabled = true;
+  say('Now departing: next-idea', 'まもなく発車します　次は next-idea');
+  let t = ctx.currentTime + 0.1;
+  const lights = notesEl.children;
+  MELODY.forEach(([m, beats], i) => {
+    bell(ctx, hz(m), t, beats * BEAT);
+    const at = (t - ctx.currentTime) * 1000;
+    setTimeout(() => lights[i].classList.add('on'), at);
+    setTimeout(() => lights[i].classList.remove('on'), at + beats * BEAT * 1000);
+    t += beats * BEAT;
+  });
+  const end = (t - ctx.currentTime) * 1000;
+  setTimeout(() => say('Doors closing. Please stand clear.', 'ドアが閉まります。ご注意ください。'), end);
+  setTimeout(() => { say('Departed. Thank you for riding.', '発車しました。ご乗車ありがとうございました。'); btn.disabled = false; ctx.close(); }, end + 2200);
+});
+</script>
+</body>
+</html>

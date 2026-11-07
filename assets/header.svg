@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 250" width="830" height="250">
+<style>
+.jp{font:700 58px 'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic UI','Yu Gothic','Meiryo','Noto Sans JP',sans-serif;fill:#1b1f24}
+.en{font:600 21px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#1b1f24;letter-spacing:7px}
+.side{font:600 15px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#fff}
+.sidejp{font:700 12px 'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic UI','Yu Gothic','Meiryo','Noto Sans JP',sans-serif;fill:#cdeee6}
+.sub{font:500 13px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#57606a}
+.next{animation:nudge 1.6s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+</style>
+<rect x="4" y="4" width="822" height="242" rx="14" fill="#fff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="34" y="30" width="64" height="64" rx="10" fill="#fff" stroke="#0e7c66" stroke-width="5"/>
+<text x="66" y="56" text-anchor="middle" style="font:700 15px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#0e7c66">AT</text>
+<text x="66" y="83" text-anchor="middle" style="font:800 24px 'Segoe UI',-apple-system,Helvetica,Arial,'Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans JP',sans-serif;fill:#1b1f24">24</text>
+<text x="415" y="94" text-anchor="middle" class="jp">ティワリアブハイ</text>
+<text x="415" y="128" text-anchor="middle" class="en">ABHAY TIWARI</text>
+<rect x="5" y="148" width="820" height="50" fill="#0e7c66"/>
+<circle cx="415" cy="173" r="12" fill="#fff" stroke="#1b1f24" stroke-width="4"/>
+<polygon points="30,173 42,165 42,181" fill="#fff"/>
+<text x="52" y="168" class="sidejp">ダンバード</text>
+<text x="52" y="188" class="side">Dhanbad · IIT (ISM) 2024</text>
+<g class="next">
+<text x="778" y="168" text-anchor="end" class="sidejp">つぎ</text>
+<text x="778" y="188" text-anchor="end" class="side">next-idea</text>
+<polygon points="800,173 788,165 788,181" fill="#fff"/>
+</g>
+<text x="415" y="226" text-anchor="middle" class="sub">Software Development Engineer at Standard Force  ·  長崎県大村市  Omura, Nagasaki, Japan</text>
+</svg>

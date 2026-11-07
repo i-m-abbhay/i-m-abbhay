@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 340" width="830" height="340">
+<defs><pattern id="dots" width="3" height="3" patternUnits="userSpaceOnUse">
+<rect x="2" width="1" height="3" fill="#000"/><rect y="2" width="3" height="1" fill="#000"/>
+</pattern>
+<clipPath id="band"><rect x="22" y="290" width="786" height="34"/></clipPath>
+</defs>
+<style>
+.led{font:700 16px ui-monospace,SFMono-Regular,Consolas,Menlo,'Liberation Mono',monospace,'Yu Gothic','Meiryo','Hiragino Sans','Noto Sans JP';fill:#ffb000}
+.via{font:600 13px ui-monospace,SFMono-Regular,Consolas,Menlo,'Liberation Mono',monospace,'Yu Gothic','Meiryo','Hiragino Sans','Noto Sans JP';fill:#a8740a}
+.h{font:700 12px ui-monospace,SFMono-Regular,Consolas,Menlo,'Liberation Mono',monospace,'Yu Gothic','Meiryo','Hiragino Sans','Noto Sans JP';fill:#a8740a;letter-spacing:2px}
+.title{font:800 20px ui-monospace,SFMono-Regular,Consolas,Menlo,'Liberation Mono',monospace;fill:#ffb000;letter-spacing:5px}
+.titlejp{font:700 16px 'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic UI','Yu Gothic','Meiryo','Noto Sans JP',sans-serif;fill:#ffb000}
+.en{animation:en 8s infinite}.ja{animation:ja 8s infinite}
+@keyframes en{0%,44%{opacity:1}50%,94%{opacity:0}100%{opacity:1}}
+@keyframes ja{0%,44%{opacity:0}50%,94%{opacity:1}100%{opacity:0}}
+.blink{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.tick{animation:tick 34s linear infinite}
+@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-2300px)}}
+</style>
+<rect x="4" y="4" width="822" height="332" rx="14" fill="#16181b" stroke="#30363d" stroke-width="2"/>
+<rect x="22" y="22" width="786" height="300" rx="6" fill="#050505"/>
+<text x="40" y="56" class="title">DEPARTURES</text>
+<text x="208" y="55" class="titlejp">発車案内</text>
+<text x="790" y="55" class="h en" text-anchor="end">PLATFORM: main</text><text x="790" y="55" class="h ja" text-anchor="end">のりば: main</text>
+<text x="40" y="88" class="h en">TIME</text><text x="40" y="88" class="h ja">時刻</text><text x="112" y="88" class="h en">TYPE</text><text x="112" y="88" class="h ja">種別</text>
+<text x="210" y="88" class="h en">DESTINATION</text><text x="210" y="88" class="h ja">行先</text><text x="790" y="88" class="h en" text-anchor="end">STATUS</text><text x="790" y="88" class="h ja" text-anchor="end">備考</text>
+<line x1="34" y1="98" x2="796" y2="98" stroke="#2a2a2a"/>
+<text x="40" y="124" class="led">09:00</text>
+<text x="112" y="124" class="led en" style="fill:#ff7b72">Rapid</text><text x="112" y="124" class="led ja" style="fill:#ff7b72">快速</text>
+<text x="210" y="124" class="led">pounce</text>
+<text x="284" y="124" class="via en">pixel pet for Claude Code</text><text x="284" y="124" class="via ja">Claude Code用ピクセルペット</text>
+<g class="blink"><text x="790" y="124" class="led en" text-anchor="end" style="fill:#3ddc84">BOARDING</text><text x="790" y="124" class="led ja" text-anchor="end" style="fill:#3ddc84">乗車中</text></g>
+<line x1="34" y1="135" x2="796" y2="135" stroke="#1a1a1a"/>
+<text x="40" y="158" class="led">09:12</text>
+<text x="112" y="158" class="led en" style="fill:#ffd166">Express</text><text x="112" y="158" class="led ja" style="fill:#ffd166">急行</text>
+<text x="210" y="158" class="led">direct4b-mcp</text>
+<text x="344" y="158" class="via en">MCP server for team chat</text><text x="344" y="158" class="via ja">チームチャット用MCPサーバー</text>
+<text x="790" y="158" class="led en" text-anchor="end" style="fill:#ffb000">On time</text><text x="790" y="158" class="led ja" text-anchor="end" style="fill:#ffb000">定刻</text>
+<line x1="34" y1="169" x2="796" y2="169" stroke="#1a1a1a"/>
+<text x="40" y="192" class="led">09:30</text>
+<text x="112" y="192" class="led en" style="fill:#79c0ff">Local</text><text x="112" y="192" class="led ja" style="fill:#79c0ff">普通</text>
+<text x="210" y="192" class="led">nihongo</text>
+<text x="294" y="192" class="via en">learn Japanese by building</text><text x="294" y="192" class="via ja">作りながら日本語を学ぶ</text>
+<text x="790" y="192" class="led en" text-anchor="end" style="fill:#ffb000">On time</text><text x="790" y="192" class="led ja" text-anchor="end" style="fill:#ffb000">定刻</text>
+<line x1="34" y1="203" x2="796" y2="203" stroke="#1a1a1a"/>
+<text x="40" y="226" class="led">09:48</text>
+<text x="112" y="226" class="led en" style="fill:#79c0ff">Local</text><text x="112" y="226" class="led ja" style="fill:#79c0ff">普通</text>
+<text x="210" y="226" class="led">karimen-honmen</text>
+<text x="364" y="226" class="via en">driving test practice</text><text x="364" y="226" class="via ja">運転免許の試験対策</text>
+<text x="790" y="226" class="led en" text-anchor="end" style="fill:#ffb000">On time</text><text x="790" y="226" class="led ja" text-anchor="end" style="fill:#ffb000">定刻</text>
+<line x1="34" y1="237" x2="796" y2="237" stroke="#1a1a1a"/>
+<text x="40" y="260" class="led">10:05</text>
+<text x="112" y="260" class="led en" style="fill:#79c0ff">Local</text><text x="112" y="260" class="led ja" style="fill:#79c0ff">普通</text>
+<text x="210" y="260" class="led">Eat-That-Frog</text>
+<text x="354" y="260" class="via en">task tracker</text><text x="354" y="260" class="via ja">タスク管理</text>
+<text x="790" y="260" class="led en" text-anchor="end" style="fill:#ff7b72">Delayed: procrastinating</text><text x="790" y="260" class="led ja" text-anchor="end" style="fill:#ff7b72">遅延：先延ばし中</text>
+<line x1="34" y1="271" x2="796" y2="271" stroke="#1a1a1a"/>
+<line x1="22" y1="290" x2="808" y2="290" stroke="#2a2a2a"/>
+<g clip-path="url(#band)"><g class="tick">
+<text x="808" y="313" class="led">Thank you for visiting.    ご覧いただきありがとうございます。    次は next-idea です。    Please mind the gap between learning and shipping.    学びと出荷のすき間にご注意ください。</text>
+</g></g>
+<rect x="22" y="22" width="786" height="300" rx="6" fill="url(#dots)" opacity=".45"/>
+</svg>
