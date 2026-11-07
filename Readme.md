@@ -37,12 +37,14 @@
   <a href="https://medium.com/@abhay.tiwari.er"><img src="assets/articles.svg" width="100%" alt="Arrivals board of my latest Medium articles."></a>
 </p>
 
+<!-- articles:start -->
 - [We Were About to Pay ¥50,000 More a Month for a Bigger Disk.](https://medium.com/@abhay.tiwari.er/we-were-about-to-pay-50-000-more-a-month-for-a-bigger-disk-03af49cb5698)
 - [Object Storage for VPS Developers](https://medium.com/@abhay.tiwari.er/object-storage-for-vps-developers-70de08e2dd41)
 - [How to make your own Protocol (like HTTP) in 10 minutes](https://medium.com/@abhay.tiwari.er/how-to-make-your-own-protocol-like-http-in-10-minutes-3e61de91ad2f)
 - [All About HTTP Headers](https://medium.com/@abhay.tiwari.er/all-about-http-headers-16285e484951)
 - [AI is making me faster for sure but I feel empty and sad afterwards.](https://medium.com/@abhay.tiwari.er/ai-is-making-me-faster-for-sure-but-i-feel-empty-and-sad-afterwards-94ee2f75ff27)
-- [More on Medium](https://medium.com/@abhay.tiwari.er): Go concurrency (goroutines, channels, mutexes), cleaning up a hacked site, tuning MySQL on a 2018 Laravel ERP.
+- [More on Medium](https://medium.com/@abhay.tiwari.er)
+<!-- articles:end -->
 
 <p align="center">
   <img src="assets/stack.svg" width="100%" alt="Tech stack transit map. Languages line: JavaScript, TypeScript, PHP, Python, Go, C++. Frontend line: React, Next.js, Vue, Svelte, Tailwind. Backend line: Node.js, Express, Laravel, Django, FastAPI, Gin. Data line: MySQL, PostgreSQL, MongoDB, SQLite. Ops line: Docker, RabbitMQ, Grafana, Prometheus, Loki, Git.">

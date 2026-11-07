@@ -253,43 +253,5 @@ for code, (col, en, ja) in LINES.items():
 save("stack.svg", "\n".join(m), 830, 484)
 
 
-# 5. LED arrivals board for Medium articles (bilingual)
-articles = [
-    (("OCT 15", "10月15日"), ("Infra", "インフラ"), "#ffd166",
-     ("We Were About to Pay ¥50,000 More a Month for a Bigger Disk.", "大きいディスクに月5万円多く払うところだった。")),
-    (("SEP 25", "9月25日"), ("Infra", "インフラ"), "#ffd166",
-     ("Object Storage for VPS Developers", "VPS開発者のためのオブジェクトストレージ")),
-    (("SEP 15", "9月15日"), ("Net", "通信"), "#79c0ff",
-     ("How to make your own Protocol (like HTTP) in 10 minutes", "10分で作る、HTTPのような自作プロトコル")),
-    (("SEP 10", "9月10日"), ("Web", "ウェブ"), "#2bb3a3",
-     ("All About HTTP Headers", "HTTPヘッダーのすべて")),
-    (("JUL 06", "7月6日"), ("Essay", "随筆"), "#ff7b72",
-     ("AI is making me faster, but I feel empty afterwards.", "AIで速くなった。でも、あとに残るのは虚しさ。")),
-]
-a = [f"""<defs>{DOTS}</defs>
-<style>
-.led{{font:700 15px {MONO_JP};fill:{AMBER}}}
-.h{{font:700 12px {MONO_JP};fill:{DIM};letter-spacing:2px}}
-.title{{font:800 20px {MONO};fill:{AMBER};letter-spacing:5px}}
-.titlejp{{font:700 16px {JP};fill:{AMBER}}}
-.new{{font:700 12px {MONO_JP};fill:#3ddc84}}
-{SWAP}
-</style>
-<rect x="4" y="4" width="822" height="282" rx="14" fill="#16181b" stroke="#30363d" stroke-width="2"/>
-<rect x="22" y="22" width="786" height="250" rx="6" fill="#050505"/>
-<text x="40" y="56" class="title">ARRIVALS</text>
-<text x="180" y="55" class="titlejp">到着案内</text>
-{bi(790, 55, "h", "FROM: medium.com/@abhay.tiwari.er", "発: medium.com/@abhay.tiwari.er", R)}
-{bi(40, 88, "h", "DATE", "日付")}{bi(122, 88, "h", "LINE", "路線")}{bi(210, 88, "h", "ARTICLE", "記事")}
-<line x1="34" y1="98" x2="796" y2="98" stroke="#2a2a2a"/>"""]
-for i, (d, line, col, title) in enumerate(articles):
-    y = 126 + i * 32
-    a.append(bi(40, y, "led", *d))
-    a.append(bi(122, y, "led", *line, f' style="fill:{col}"'))
-    a.append(bi(210, y, "led", *title))
-    if i == 0:
-        a.append(f'<g class="blink">{bi(790, y, "new", "NEW", "新着", R)}</g>')
-    a.append(f'<line x1="34" y1="{y+11}" x2="796" y2="{y+11}" stroke="#1a1a1a"/>')
-a.append('<rect x="22" y="22" width="786" height="250" rx="6" fill="url(#dots)" opacity=".45"/>')
-save("articles.svg", "\n".join(a), 830, 290)
+# 5. The ARRIVALS board (articles.svg) is drawn by medium.py from the Medium RSS feed.
 print("ok")
