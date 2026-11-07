@@ -18,6 +18,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/timetable.svg" width="100%" alt="Timetable of my GitHub contributions over the last 12 weeks, shown as trains per day.">
+</p>
+
+<p align="center">
   <a href="https://github.com/i-m-abbhay?tab=repositories"><img src="assets/departures.svg" width="100%" alt="Departures board of projects: pounce, direct4b-mcp, nihongo, karimen-honmen, Eat-That-Frog."></a>
   <br>
   <sub>
