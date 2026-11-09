@@ -151,9 +151,11 @@
 <text x="707.5" y="270" text-anchor="middle" class="zero">--</text>
 <rect x="685.5" y="284" width="44" height="22" rx="3" fill="#ffb000" opacity="0.49"/>
 <text x="707.5" y="300" text-anchor="middle" class="led">10</text>
-<text x="762.5" y="120" text-anchor="middle" class="zero today">--</text>
+<text x="762.5" y="120" text-anchor="middle" class="zero">--</text>
+<rect x="740.5" y="134" width="44" height="22" rx="3" fill="#ffb000" opacity="0.52"/>
+<text x="762.5" y="150" text-anchor="middle" class="led today">11</text>
 <line x1="22" y1="338" x2="808" y2="338" stroke="#2a2a2a"/>
-<text x="40" y="364" class="led">LAST 12 WEEKS: 138 trains · 直近12週: 138本</text>
-<text x="40" y="388" class="led" style="fill:#a8740a">THIS YEAR: 822 · BUSIEST: Oct 13 (15) · 最多: 10月13日</text>
+<text x="40" y="364" class="led">LAST 12 WEEKS: 149 trains · 直近12週: 149本</text>
+<text x="40" y="388" class="led" style="fill:#a8740a">THIS YEAR: 826 · BUSIEST: Oct 13 (15) · 最多: 10月13日</text>
 <rect x="22" y="22" width="786" height="380" rx="6" fill="url(#dots)" opacity=".45"/>
 </svg>
