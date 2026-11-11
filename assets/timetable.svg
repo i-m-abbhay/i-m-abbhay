@@ -155,7 +155,8 @@
 <rect x="740.5" y="134" width="44" height="22" rx="3" fill="#ffb000" opacity="0.67"/>
 <text x="762.5" y="150" text-anchor="middle" class="led">24</text>
 <rect x="740.5" y="164" width="44" height="22" rx="3" fill="#ffb000" opacity="0.28"/>
-<text x="762.5" y="180" text-anchor="middle" class="led today">7</text>
+<text x="762.5" y="180" text-anchor="middle" class="led">7</text>
+<text x="762.5" y="210" text-anchor="middle" class="zero today">--</text>
 <line x1="22" y1="338" x2="808" y2="338" stroke="#2a2a2a"/>
 <text x="40" y="364" class="led">LAST 12 WEEKS: 169 trains · 直近12週: 169本</text>
 <text x="40" y="388" class="led" style="fill:#a8740a">THIS YEAR: 846 · BUSIEST: Nov 09 (24) · 最多: 11月9日</text>
