@@ -24,7 +24,6 @@
 <text x="40" y="126" class="led en">OCT 15</text><text x="40" y="126" class="led ja">10月15日</text>
 <text x="122" y="126" class="led en" style="fill:#ffd166">Infra</text><text x="122" y="126" class="led ja" style="fill:#ffd166">インフラ</text>
 <text x="210" y="126" class="led en">We Were About to Pay ¥50,000 More a Month for a Bigger Disk.</text><text x="210" y="126" class="led ja">大きいディスクに月5万円多く払うところだった。</text>
-<g class="blink"><text x="790" y="126" class="new en" text-anchor="end">NEW</text><text x="790" y="126" class="new ja" text-anchor="end">新着</text></g>
 <line x1="34" y1="137" x2="796" y2="137" stroke="#1a1a1a"/>
 <text x="40" y="158" class="led en">SEP 25</text><text x="40" y="158" class="led ja">9月25日</text>
 <text x="122" y="158" class="led en" style="fill:#ffd166">Infra</text><text x="122" y="158" class="led ja" style="fill:#ffd166">インフラ</text>
