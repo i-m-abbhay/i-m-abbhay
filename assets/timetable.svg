@@ -157,10 +157,12 @@
 <rect x="685.5" y="284" width="44" height="22" rx="3" fill="#ffb000" opacity="0.40"/>
 <text x="707.5" y="300" text-anchor="middle" class="led">12</text>
 <text x="762.5" y="120" text-anchor="middle" class="zero">--</text>
-<rect x="740.5" y="134" width="44" height="22" rx="3" fill="#ffb000" opacity="0.21"/>
-<text x="762.5" y="150" text-anchor="middle" class="led today">4</text>
+<rect x="740.5" y="134" width="44" height="22" rx="3" fill="#ffb000" opacity="0.44"/>
+<text x="762.5" y="150" text-anchor="middle" class="led">14</text>
+<rect x="740.5" y="164" width="44" height="22" rx="3" fill="#ffb000" opacity="0.53"/>
+<text x="762.5" y="180" text-anchor="middle" class="led today">18</text>
 <line x1="22" y1="338" x2="808" y2="338" stroke="#2a2a2a"/>
-<text x="40" y="364" class="led">LAST 12 WEEKS: 192 trains · 直近12週: 192本</text>
-<text x="40" y="388" class="led" style="fill:#a8740a">THIS YEAR: 864 · BUSIEST: Nov 09 (24) · 最多: 11月9日</text>
+<text x="40" y="364" class="led">LAST 12 WEEKS: 220 trains · 直近12週: 220本</text>
+<text x="40" y="388" class="led" style="fill:#a8740a">THIS YEAR: 892 · BUSIEST: Nov 09 (24) · 最多: 11月9日</text>
 <rect x="22" y="22" width="786" height="380" rx="6" fill="url(#dots)" opacity=".45"/>
 </svg>
